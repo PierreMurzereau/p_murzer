@@ -1,0 +1,411 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+    background-color: #F57D2E;
+}
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: rgb(48, 44, 44);
+    scroll-behavior: smooth;
+ }
+
+ a{
+    color: black;
+    text-decoration: none;
+ }
+a :hover{
+    color: #ff923b;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+p{
+    margin: 20px;
+}
+
+
+
+
+
+
+.header{
+    height: 100vh;
+    background: linear-gradient(to right bottom, #ff933bdc, rgba(90, 114, 51, 0.788)), url(../images/Partners/image-Pour3Points.jpg);
+    background-size: cover;
+    color: white;
+}
+.logo-container {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+}
+.landing-page-social-media-logo{
+    text-decoration: none;
+    float: right;
+    margin: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.landing-page-logo{
+    width: 30%;
+    height: 30%;
+}
+.heading {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.heading-main {
+    font-size: 60px;
+    font-weight: 200;
+    letter-spacing: 13.8px;
+    color: black;
+    font-family: sans-serif;
+    animation-name: animation-Soccer4Other;
+    animation-duration: 4s;
+}
+    
+.heading-main:hover{
+    color: #FF5F00;
+    size: 110%;
+}
+
+.heading-subsection {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 450;
+    letter-spacing: 2px;
+    color: black;
+    font-family: sans-serif;
+    animation-name: animation-Soccer4Other;
+    animation-duration: 4s;
+}
+.heading-subsection:hover{
+    color: #FF5F00;
+    size: 110%;
+    transform: translate();
+  }
+    
+.scroll-container{
+    position: absolute;
+    bottom: 35px;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    color: black;
+}
+    
+.scroll-container :hover{
+    color: #FF5F00;
+    size: 110%;
+}
+        
+.icon-container{
+    text-align: center;
+}
+    
+@keyframes animation-Soccer4Other {
+    0%{
+      color: #ffffff;
+      transform: translate(-100,0);
+    }
+     25%{
+      color: #ff923b;
+    }
+    
+    100%{
+      color: black;
+      transform: translate(0,0);
+    }
+}
+   
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    border-bottom: 2px black inset;
+    background-color: #F57D2E;
+    overflow: hidden;
+    text-align: center;
+    letter-spacing: 2px;
+}
+    
+.navbar a{
+    float: left;
+    display: block;
+    color: rgb(39, 38, 38);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+    
+.navbar a:hover{
+    color: #F57D2E;
+    background-color: rgb(39, 38, 38);
+    transition: background-color 1.2s;
+}
+    
+.facebook-icon-navbar{
+    position: absolute;
+    right: 25px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.Partners-Main-body{
+    background-image: url(../images/star/drone-photo-S4O.jpg);
+    background-position: center;
+    background-size: cover;
+    position:relative;
+    height: 2169px;
+    
+}
+   
+.Partners-section{
+    text-align: center;
+    height: fit-content;
+}
+
+.Partners-Paragraph-1{
+    position: absolute;
+    top: 6%;
+    left: 7%;
+    width: 43%;
+    line-height: 40px;
+    color: #F57D2E;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: fit-content;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Partners-Paragraph-2{
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    width: 48%;
+    line-height: 40px;
+    color: #F57D2E;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: fit-content;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Partners-Paragraph-3{
+    position: absolute;
+    top: 34%;
+    left: 7%;
+    width: 43%;
+    line-height: 40px;
+    color: #F57D2E;
+    background-color: #ffffff;
+    border-radius: 15px;
+    height: fit-content;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+
+
+
+
+
+.Our-Partners-Title{
+    font-size: 80px;
+    color: #F57D2E;
+    letter-spacing: 3px;
+}
+
+
+
+
+
+
+
+.decathlon-container{
+    width: 30%;
+    position: absolute;
+    left: 60%;
+    top: 180px;
+    background-color: #F57D2E;
+    padding: 5px;
+}
+
+.Decath-logo{
+    width: 100%;
+}
+
+
+
+
+.Pour3Points-container{
+    width: 30%;
+    left: 14%;
+    padding: 12px;
+    position: absolute;
+    top: 423PX;
+    background-color: #F57D2E;
+}
+
+.Pour3Points-blanc-logo{
+    width: 100%;
+}
+
+
+
+
+.district5-logo{
+    width: 100%;
+}
+
+.District5-inner-container{
+    width: 15%;
+    left: 65%;
+    padding: 15px;
+    position: absolute;
+    top: 37%;
+    background-color: #F57D2E;
+}
+.District5-image{
+    background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+.scroll-container-2{
+    position: absolute;
+    left: 50%;
+    text-align: center;
+    bottom: 35%;
+    transform: translate(-50% , -50%);
+    color: white;
+    font-weight: 500;
+    font-size: 43px;
+}
+.scroll-container-2 :hover{
+    color: #F57D2E;
+    background-color: rgb(39, 38, 38);
+    transition: background-color 1.2s;
+    border-radius: 15px;
+}   
+
+.icon-container-2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 16px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.contact-us-outer-container {
+position: absolute;
+    width: 100%;
+    bottom: 0px;
+  background-image: linear-gradient(to right bottom, rgba(255, 94, 0, 0.712), #ff933ba4);
+  color: white;
+}
+
+.contact-us-inner-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.radio-input {
+  margin: 15px;
+}
+.select-box {
+  height: 40px;
+}
+
+.submit-button {
+  background-color: #050505;
+  color:#FF5F00;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  opacity: 1;
+}
+
+.heading-container {
+  text-align: center;
+}
+
+.contact-us-heading {
+  font-size: 30px;
+}
+
+.field-container {
+  margin: 10px;
+}
+
+.form-container {
+  margin: 20px;
+}

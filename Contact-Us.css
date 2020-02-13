@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html{
+    background-color: #F57D2E;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: rgb(48, 44, 44);
+    scroll-behavior: smooth;
+    line-height: 1.6;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a :hover{
+    color: #FF5F00;
+}
+
+main {
+    background-image: url(../images/star/drone-photo-S4O.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+img{
+    width: 100%;
+}
+
+
+
+
+
+
+.navbar{
+    border-bottom: 1px black inset;
+    background-color: #F57D2E;
+    overflow: hidden;
+    text-align: center;
+    letter-spacing: 2px;
+}
+  
+.navbar a{
+    float: left;
+    display: block;
+    color: rgb(39, 38, 38);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+  
+.navbar a:hover{
+    color: #ff923b;
+    background-color: rgb(39, 38, 38);
+    transition: background-color 1.2s;
+}
+  
+.facebook-icon-navbar{
+    position: absolute;
+    right: 25px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  font-size: 16px;
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 16px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.contact-us-outer-container {
+position: relative;
+    width: 100%;
+    bottom: 0px;
+  background-image: linear-gradient(to right bottom, rgba(255, 94, 0, 0.712), #ff933ba4);
+  color: white;
+}
+
+.contact-us-inner-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+.radio-input {
+  margin: 15px;
+}
+.select-box {
+  height: 40px;
+}
+
+.submit-button {
+  background-color: #050505;
+  color:#FF5F00;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  opacity: 1;
+}
+
+.heading-container {
+  text-align: center;
+}
+
+.contact-us-heading {
+  font-size: 30px;
+}
+
+.field-container {
+  margin: 10px;
+}
+
+.form-container {
+  margin: 20px;
+}

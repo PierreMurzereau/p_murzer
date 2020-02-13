@@ -1,0 +1,486 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+  
+html {
+scroll-behavior: smooth;
+background-color: #F57D2E;
+}
+  
+body {
+font-family: "Lato", sans-serif;
+font-weight: 200;
+font-size: 16px;
+color: rgb(48, 44, 44);
+scroll-behavior: smooth;
+line-height: 1.6;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+ul{
+  list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header{
+  height: 100vh;
+  background: linear-gradient(to right bottom, #ff933bdc, rgba(90, 114, 51, 0.788)), url(../images/star/t-shirt-S4O.jpg);
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+  
+.logo-container {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+
+.landing-page-social-media-logo{
+  text-decoration: none;
+  float: right;
+  margin: 30px;
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+.landing-page-logo{
+  width: 30%;
+  height: 30%;
+}
+  
+.heading {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+  
+.heading-main {
+  font-size: 60px;
+  font-weight: 200;
+  letter-spacing: 13.8px;
+  color: black;
+  font-family: sans-serif;
+  animation-name: animation-Soccer4Other;
+  animation-duration: 4s;
+}
+
+.heading-main:hover{
+  color: #FF5F00;
+  size: 110%;
+  transform: translate();
+}
+  
+.heading-subsection {
+  font-size: 18px;
+  font-weight: 450;
+  letter-spacing: 2px;
+  color: black;
+  font-family: sans-serif;
+  animation-name: animation-Soccer4Other;
+  animation-duration: 4s;
+}
+
+.heading-subsection:hover{
+  color: #FF5F00;
+  size: 110%;
+  transform: translate();
+}
+
+.scroll-container{
+  position: absolute;
+  bottom: 35px;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  color: black;
+}
+
+.scroll-container :hover{
+  color: #FF5F00;
+  size: 110%;
+}
+
+
+.icon-container{
+  text-align: center;
+}
+
+@keyframes animation-Soccer4Other {
+  0%{
+    color: #FF5F00;
+    transform: translate(-100,-50);
+  }
+
+  100%{
+    color: black;
+    transform: translate(-50,-50);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+.navbar{
+  border-bottom: 2px black inset;
+  background-color: #F57D2E;
+  overflow: hidden;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  color: rgb(39, 38, 38);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar a:hover{
+  color: #ff923b;
+  background-color: rgb(39, 38, 38);
+  transition: background-color 1.2s;
+}
+
+.facebook-icon-navbar{
+  position: absolute;
+  right: 25px;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.main{
+  background-color: #F57D2E;
+  margin-top: 0px;
+  padding-top: 5px;
+  position: absolute;
+  width: 100%;
+  background-image: url(../images/star/drone-photo-S4O.jpg);
+  background-position: center;
+}
+
+
+
+
+
+
+.about-us-section{
+  background-color: #ffffff;
+  position: relative;
+  text-align: center;
+  height: 373px;
+  border-bottom: 0px;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 40px;
+}
+
+.about-us-title{
+  position: absolute;
+  top: 2px;
+  left: 37px;
+  font-size: 66px;
+  letter-spacing: 10px;
+}
+
+.about-us-S4O-Logo{
+  border-radius: 51%;
+  width: 10%;
+  position: absolute;
+  top: 200px;
+  left: 260px;
+}
+
+.about-us-main-image{
+  width: 44%;
+  max-width: 100%;
+  max-height: 100%;
+  position: absolute;
+  top: 20px;
+  right: 6px;
+  border-radius: 83px;
+}
+
+.about-us-text{
+  width: 51%;
+  position: absolute;
+  top: 90px;
+  margin-left: 28px;
+}
+
+.about-us-text a :hover{
+  color: #ff923b;
+  transition: background-color 1.2s;
+}
+
+.about-us-subtext{
+  position: absolute;
+  top: 330px;
+  left: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.Our-Mission{
+  width: 90%;
+  margin: 0px 29px 0px 29px;
+  background-color: #FF5F00;
+  position: relative;
+  left: 35px;
+  text-align: center;
+  color: #3E3B3A;
+}
+
+.soccer-ball-Our-Mission{
+  color: black;
+  font-size: 53px;
+  width: 100%;
+  position: absolute;
+  top: 82px;
+  left: 79px;
+  letter-spacing: 132px;
+}
+
+.Our-Mission-title{
+  font-size: 64PX;
+  color: black;
+  font-family: sans-serif;
+  font-weight: 100;
+  text-align: left;
+  padding-top: 0px;
+  padding-left: 22px;
+}
+
+.Our-Mission-text{
+  padding: 50px;
+  font-size: 33px;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dropdown-how{
+  text-align: center;
+  width: 24%;
+  background-color: white;
+  border-radius: 0px 0px 11px 11px;
+
+}
+.dropdown-how-text{
+  display: none;
+  background: #ff5f00;
+  border-radius: 15px 15px 0px 15px;
+  position: absolute;
+  border: solid 2px black;
+  top: 100%;
+  min-width: 250px;
+  text-align: center;
+  padding: 12px;
+  color: black;
+}
+.button-How{
+  top: 40px;
+  position: relative;
+  width: 100%;
+  height: 200px;
+  font-size: 50px;
+  font-weight: 100;
+}
+.dropdown-how:hover .dropdown-how-text{
+  display: block;
+  background-color: #FF5F00;
+}
+
+
+
+
+
+
+
+
+
+
+.dropdown-Why{
+  text-align: center;
+  border-radius: 0 0 11px 11px;
+  width: 24%;
+  background-color: white;
+}
+.dropdown-Why-text{
+  display: none;
+  background: #ff5f00;
+  border-radius: 15px 15px 0px 15px;
+  position: absolute;
+  top: 100%;
+  border: solid 2px black;
+  min-width: 250px;
+  text-align: center;
+  padding: 12px;
+  color: black;
+}
+.button-Why{
+  top: 40px;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  font-size: 50px;
+  font-weight: 100;
+}
+.dropdown-Why:hover .dropdown-Why-text{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+.dropdown-What{
+  text-align: center;
+  width: 24%;
+  background-color: white;
+  border-radius: 0px 0px 11px 11px;
+}
+.dropdown-What-text{
+  display: none;
+  background: #ff5f00;
+  border-radius: 15px 15px 0px 15px;
+  border: solid 2px black;
+  position: absolute;
+  top: 100%;
+  min-width: 250px;
+  text-align: center;
+  padding: 12px;
+  color: black;
+}
+.button-What{
+  position: relative;
+  top: 40px;
+  display: inline-block;
+  width: 100%;
+  height: 200px;
+  font-size: 50px;
+  font-weight: 100;
+
+}
+.dropdown-What:hover .dropdown-What-text{
+  display: block;
+}
+
+
+
+
+
+
+
+.how-why-what-container{
+  width: 100%;
+  position: relative;
+  display: flex;
+  padding-top: 0px;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.chevron-icon-main-body{
+  position: relative;
+  bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-us-outer-container {
+  background-image: linear-gradient(to right bottom, rgba(255, 94, 0, 0.712), #ff933ba4);
+  color: white;
+}
+
+.contact-us-outer-container:hover{
+  color: #ff923b;
+  background-color: rgb(39, 38, 38);
+  width: 100%;
+  transition: background-color 1.2s;
+}
+.contact-us-inner-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+
+.heading-container {
+  text-align: center;
+}
+
+
+
